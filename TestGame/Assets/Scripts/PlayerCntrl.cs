@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerCntrl : MonoBehaviour
 {
@@ -6,7 +8,7 @@ public class PlayerCntrl : MonoBehaviour
    
     private Rigidbody _rb;
 
-    public TextMesh scoreText;
+    public TextMeshPro scoreText;
 
     private int _score = 0;
 
