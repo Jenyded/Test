@@ -173,7 +173,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 20
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -491,7 +491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395809056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.77, y: 0.94, z: 1.13673}
+  m_LocalPosition: {x: 9.74, y: 0.94, z: 1.13673}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -685,7 +685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626108592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.77, y: 0.94, z: -7.81}
+  m_LocalPosition: {x: 8.777, y: 0.604, z: -7.81}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1044,7 +1044,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079272414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.37, y: 0.94, z: -7.61}
+  m_LocalPosition: {x: -5.039, y: 0.609, z: -7.61}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1077,8 +1077,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188087032}
   m_LocalRotation: {x: 0.000000029802319, y: -0.0000000016298143, z: 0.0062691174, w: 0.99998033}
-  m_LocalPosition: {x: 0, y: 0, z: -52903.113}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 28}
+  m_LocalScale: {x: 1, y: 1.0969, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2064372627}
@@ -1086,7 +1086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.718}
   m_AnchorMin: {x: 0.035, y: 0.7903115}
   m_AnchorMax: {x: 0.3, y: 0.9678744}
-  m_AnchoredPosition: {x: 718.7142, y: 21004.547}
+  m_AnchoredPosition: {x: -24148.998, y: -30532.984}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188087034
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 22.541672, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1406,7 +1406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709594608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.37, y: 0.94, z: 5.52}
+  m_LocalPosition: {x: -4.37, y: 0.602, z: 5.52}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1503,7 +1503,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950238442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.35, y: 0.94, z: -4.82}
+  m_LocalPosition: {x: 5.35, y: 0.61, z: -4.82}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1543,7 +1543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975d395140167bf43a3b2e8ec8978258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 55
+  speed: 70
   scoreText: {fileID: 0}
 --- !u!54 &1954371947
 Rigidbody:
