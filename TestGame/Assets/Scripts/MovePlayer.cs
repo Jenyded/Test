@@ -4,7 +4,6 @@ public class MovePlayer : MonoBehaviour
 {
     public float speed = 5f;
     public float hSpeed = 10f, _thrust = 500f;
-
     private Rigidbody _rb;
 
     private void Awake()
@@ -24,7 +23,6 @@ public class MovePlayer : MonoBehaviour
     {
         if (other.gameObject.name == "Block")
             _rb.AddForce(new Vector3(0, 1, 0) * _thrust);
-
     }
 
     private void OnCollisionStay(Collision other)

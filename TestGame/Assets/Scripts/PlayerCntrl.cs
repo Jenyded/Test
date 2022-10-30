@@ -5,11 +5,8 @@ using TMPro;
 public class PlayerCntrl : MonoBehaviour
 {
     public float speed = 5f;
-   
     private Rigidbody _rb;
-
-    public TextMeshPro scoreText;
-
+    public TMP_Text scoreText;
     private int _score = 0;
 
     private void Awake()
@@ -30,10 +27,9 @@ public class PlayerCntrl : MonoBehaviour
             _score++;
             Destroy(other.gameObject);
             if(_score != 5)
-                scoreText.text = "Score: " + _score;
+               scoreText.text = "Score: " + _score;
             else
-                scoreText.text = "You win! ";
+               scoreText.text = "You win! ";
         }
-
     }
 }

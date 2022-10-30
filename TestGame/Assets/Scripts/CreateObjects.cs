@@ -34,7 +34,6 @@ public class CreateObjects : MonoBehaviour
                 new Vector3(RandomNumber(), RandomNumber(), RandomNumber()),
                 Quaternion.Euler(12f, -15f, 40f));
             yield return new WaitForSeconds(wait);
-        }
-        
+        }        
     }
 }
