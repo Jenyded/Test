@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 1709594610}
   - component: {fileID: 1709594609}
   m_Layer: 0
-  m_Name: CollectAtem (3)
+  m_Name: ' CollectAtem (3)'
   m_TagString: CollectiveCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
